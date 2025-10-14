@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site de Teste do Derick</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao meu site!</h1>
+    <p>Este é um site de teste hospedado gratuitamente no GitHub Pages 😎</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre este site</h2>
+      <p>Este site foi criado apenas para testar o funcionamento da hospedagem no GitHub. Você pode editar o código, mudar o texto, cores e deixar do seu jeito.</p>
+    </section>
+
+    <section>
+      <h2>O que você pode fazer aqui</h2>
+      <ul>
+        <li>Aprender a publicar sites grátis</li>
+        <li>Testar HTML, CSS e JavaScript</li>
+        <li>Usar como base para projetos escolares</li>
+      </ul>
+      <button onclick="mostrarMensagem()">Clique aqui 😁</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com ❤️ por Derick • 2025</p>
+  </footer>
+
+  <script>
+    function mostrarMensagem() {
+      alert("Parabéns, Derick! Seu site está funcionando 🎉");
+    }
+  </script>
+</body>
+</html>
